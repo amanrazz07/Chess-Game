@@ -1,0 +1,46 @@
+body{
+    background:linear-gradient(135deg,#1d3557,#457b9d);
+    font-family:Segoe UI;
+    text-align:center;
+    color:white;
+}
+
+h1{
+    margin-top:20px;
+}
+
+#board{
+    width:480px;
+    height:480px;
+    margin:20px auto;
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    border:4px solid white;
+}
+
+.square{
+    width:60px;
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:36px;
+    cursor:pointer;
+}
+
+.light{
+    background:#f1faee;
+}
+
+.dark{
+    background:#a8dadc;
+}
+
+.selected{
+    background:yellow !important;
+}
+
+#status{
+    font-size:18px;
+    margin-top:10px;
+}
