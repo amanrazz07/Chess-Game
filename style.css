@@ -1,8 +1,9 @@
 body{
     background:linear-gradient(135deg,#1d3557,#457b9d);
-    font-family:Segoe UI;
+    font-family:Segoe UI, sans-serif;
     text-align:center;
     color:white;
+    margin:0;
 }
 
 h1{
@@ -26,6 +27,7 @@ h1{
     justify-content:center;
     font-size:36px;
     cursor:pointer;
+    user-select:none;
 }
 
 .light{
